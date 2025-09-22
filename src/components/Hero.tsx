@@ -58,7 +58,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transform rotate-3 opacity-20"></div>
             <div className="relative bg-white p-8 rounded-3xl shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/1123262/pexels-photo-1123262.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://www.freepik.com/free-photo/3d-rendering-gas-cylinder_22896643.htm#fromView=search&page=1&position=0&uuid=a2b85c42-6c3e-4f17-b7a3-ee9a03707556&query=propane+gas+cylinders"
                 alt="Gas Cylinder Delivery Service in Dubai"
                 className="w-full h-96 object-cover rounded-2xl"
               />
