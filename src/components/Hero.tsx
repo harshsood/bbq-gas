@@ -13,7 +13,6 @@ const Hero = () => {
             <div>
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                 Dubai's Premier
-                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600"> Gas Cylinder</span>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
                   <Typewriter
                     words={['Propane Gas', 'BBQ Gas', 'Heater Gas']}
