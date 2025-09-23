@@ -1,7 +1,6 @@
 import React from 'react';
 import { ArrowRight, Shield, Clock, Truck } from 'lucide-react';
 import gasCylinder from "../images/3d-rendering-gas-cylinder.jpg";
-import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
   return (
@@ -13,19 +12,13 @@ const Hero = () => {
             <div>
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                 Dubai's Premier
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
-                  {typeof window !== 'undefined' && (
-  <Typewriter
-    words={['Propane Gas', 'BBQ Gas', 'Heater Gas']}
-    loop={true}
-    cursor
-    cursorStyle="_"
-    typeSpeed={80}
-    deleteSpeed={50}
-    delaySpeed={1500}
-  />
-)}
-</span>
+                <span className="relative inline-block ml-2 h-[1.2em] overflow-hidden text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
+                  <span className="absolute animate-wordCycle">
+                    <b className="block">Propane Gas</b>
+                    <b className="block">BBQ Gas</b>
+                    <b className="block">Heater Gas</b>
+                  </span>
+                </span>
                 <br />Supplier & Delivery
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
