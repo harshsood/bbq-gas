@@ -14,15 +14,17 @@ const Hero = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                 Dubai's Premier
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
-                  <Typewriter
-                    words={['Propane Gas', 'BBQ Gas', 'Heater Gas']}
-                    loop={true}
-                    cursor
-                    cursorStyle="_"
-                    typeSpeed={80}
-                    deleteSpeed={50}
-                    delaySpeed={1500}
-                  />
+                  {typeof window !== 'undefined' && (
+  <Typewriter
+    words={['Propane Gas', 'BBQ Gas', 'Heater Gas']}
+    loop={true}
+    cursor
+    cursorStyle="_"
+    typeSpeed={80}
+    deleteSpeed={50}
+    delaySpeed={1500}
+  />
+)}
 </span>
                 <br />Supplier & Delivery
               </h1>
