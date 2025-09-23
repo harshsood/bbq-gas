@@ -5,6 +5,7 @@ import Services from './components/Services';
 import About from './components/About';
 import DeliveryAreas from './components/DeliveryAreas';
 import Contact from './components/Contact';
+import Certifications from './components/Certifications';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Services />
       <About />
+      <Certifications />
       <DeliveryAreas />
       <Contact />
       <Footer />
