@@ -1,7 +1,11 @@
 import React from "react";
 import certOne from "../images/certification icon with since 1971 text.jpg";
 import certTwo from "../images/certification icon with since 1975 text.jpg";
-
+import certThree from "../images/sce-logo.png";
+import certFour from "../images/EAFSM.png";
+import certFive from "../images/download-1.png";
+import certSix from "../images/hah-1.jpg";
+import certSeven from "../images/civil-defence-dubai-logo1.jpg";
 
 function Certifications() {
   return (
@@ -50,27 +54,27 @@ function Certifications() {
           {/* Right Container - Logo Certificates */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 justify-items-center">
             <img
-              src="/images/logo1.png"
+              src={certThree}
               alt="Logo 1"
               className="h-20 w-auto grayscale hover:grayscale-0 transition duration-300"
             />
             <img
-              src="/images/logo2.png"
+              src={certFour}
               alt="Logo 2"
               className="h-20 w-auto grayscale hover:grayscale-0 transition duration-300"
             />
             <img
-              src="/images/logo3.png"
+              src={certFive}
               alt="Logo 3"
               className="h-20 w-auto grayscale hover:grayscale-0 transition duration-300"
             />
             <img
-              src="/images/logo4.png"
+              src={certSix}
               alt="Logo 4"
               className="h-20 w-auto grayscale hover:grayscale-0 transition duration-300"
             />
             <img
-              src="/images/logo5.png"
+              src={certSeven}
               alt="Logo 5"
               className="h-20 w-auto grayscale hover:grayscale-0 transition duration-300"
             />
