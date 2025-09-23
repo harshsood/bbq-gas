@@ -22,7 +22,7 @@ function Certifications() {
               />
               <div className="p-4 text-center">
                 <h3 className="text-lg font-semibold text-gray-700">
-                  Certification One
+                  Al Salam Gas Distributor LLC
                 </h3>
               </div>
             </a>
@@ -38,7 +38,7 @@ function Certifications() {
               />
               <div className="p-4 text-center">
                 <h3 className="text-lg font-semibold text-gray-700">
-                  Certification Two
+                  Al Jafliyah Gas Distribution LLC
                 </h3>
               </div>
             </a>
