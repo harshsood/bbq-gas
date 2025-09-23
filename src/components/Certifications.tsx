@@ -1,5 +1,6 @@
 import React from "react";
 import certOne from "../images/certification icon with since 1971 text.jpg";
+import certTwo from "../images/certification icon with since 1975 text.jpg";
 
 
 function Certifications() {
