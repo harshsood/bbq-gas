@@ -35,7 +35,7 @@ function Certifications() {
               className="block bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300"
             >
               <img
-                src="/images/cert2.jpg"
+                src={certTwo}
                 alt="Certification 2"
                 className="w-full h-48 object-cover"
               />
