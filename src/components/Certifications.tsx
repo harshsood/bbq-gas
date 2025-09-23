@@ -1,4 +1,6 @@
 import React from "react";
+import certOne from "../images/certification icon with since 1971 text.jpg";
+
 
 function Certifications() {
   return (
@@ -16,7 +18,7 @@ function Certifications() {
               className="block bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300"
             >
               <img
-                src="/images/cert1.jpg"
+                src={certOne}
                 alt="Certification 1"
                 className="w-full h-48 object-cover"
               />
