@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes wordCycle {
+  0%, 20% { transform: translateY(0%); }
+  25%, 45% { transform: translateY(-100%); }
+  50%, 70% { transform: translateY(-200%); }
+  75%, 100% { transform: translateY(0%); }
+}
+
+.animate-wordCycle {
+  display: block;
+  animation: wordCycle 6s infinite;
+}
+
 /* Custom animations */
 @keyframes fade-in-up {
   0% {
